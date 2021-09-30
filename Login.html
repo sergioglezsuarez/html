@@ -11,7 +11,7 @@
 
 /*dark background to support form theme*/
 body{
-  background: lightblue url("playa.jpg") no-repeat fixed center;
+  background: lightblue url("images/playa.jpg") no-repeat fixed center;
 }
 
 /*sass variables used*/
@@ -42,7 +42,7 @@ h1{
   text-align: center;
   padding:30px 0px 0px 0px;
   font:25px Oswald;
-  color: #FFF;
+  color: #000000;
   text-transform:uppercase;
   text-shadow:#FFF 0px 1px 5px;
   margin:0px;
@@ -51,7 +51,7 @@ h1{
 p{
   text-align: center;
   font:13px Open Sans;
-  color:#ffffff;
+  color:#000000;
   text-shadow:rgb(255, 255, 255) 0px 1px 5px;
   margin-bottom:30px;
 }
@@ -64,8 +64,8 @@ input[type="email"],input[type="password"]{
   width:98%;
   padding:15px 0px 15px 8px;
   border-radius:5px;
-  box-shadow:inset 4px 6px 10px -4px rgb(255, 255, 255), 0 1px 1px -1px rgb(255, 255, 255);
-	background:rgb(255, 255, 255);
+  box-shadow:inset 4px 6px 10px -4px rgb(255, 255, 255), 0 1px 1px -1px rgb(0, 0, 0);
+  background:rgb(255, 255, 255);
   @include disable;
   border:1px solid rgba(0,0,0,1);
   margin-bottom:10px;
@@ -128,7 +128,7 @@ input[type="submit"]:hover{
 <div class="wrapper">
   <h1>Iniciar sesión</h1>
   <p>Introuzca sus credenciales para iniciar sesión.</p>
-  <form class="form" method="post" action="yourpage.html">
+  <form class="form" method="post" action="web.html">
     <input type="email" class="email" placeholder="Correo">
     <div>
       <p class="name-help">Introduzca el correo con el que se registró </p>

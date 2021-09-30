@@ -63,15 +63,29 @@ body {
     <p>Busca ofertas en hoteles, casas y mucho más.</p>
   </div>
   <div class="botones">
-    <a href="web.html" class="button registro">Registrarse</a>
-    <a href="web.html" class="button login">Iniciar sesión</a>
+    <a href="Register.html" class="button registro">Registrarse</a>
+    <a href="Login.html" class="button login">Iniciar sesión</a>
   </div>
 </div>
-<div class="content">
-  <h1>Contenido</h1>
-  <p>Some content blablabla, some content blablabla.</p>
-  <p>Some content blablabla, some content blablabla.</p>
-  <p>Some content blablabla, some content blablabla.</p>
+<br>
+<div align="center">
+<form name="formulario" method="post" action="/send.php" align="center">
+  <!-- Campo de entrada de fecha -->
+  Selecciona la fecha deseada:
+  <input type="date" name="fecha" min="2021-09-28" max="2022-12-31" step="1" />
+  <!-- Campo de entrada de hora -->
+  Selecciona la hora deseada:
+  <input type="time" name="hora" min="00:00" max="23:59" step="3600" />
+  <input type= "button" onclick="location.href='https://www.booking.com/'" value="Buscar">
+</form>
 </div>
+<br>
+<table align="center">
+<tr><td><a href="https://es.wikipedia.org/wiki/Madrid"><img src="images/madrid.jpg" width="400" height="250"></a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+<td><a href="https://es.wikipedia.org/wiki/Maspalomas"><img src="images/maspalomas.jpg" width="400" height="250"></a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+<td><a href="https://www.20minutos.es/noticia/2380023/0/prision-salto-negro-palmas-gran-canaria-unica-espanola-que-participa-programa-europeo/"><img src="images/salto.jpg" width="400" height="250"></a></td></tr>
+<tr><td align="center">MADRID</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+<td align="center">MASPALOMAS</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+<td align="center">ULPGC</td></tr></table>
 </body>
 </html>
